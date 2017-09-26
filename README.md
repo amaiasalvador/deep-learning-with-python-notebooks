@@ -22,8 +22,9 @@ data/kaggle_original_data/cat.1.jpg
 - Machines are already prepared with requirements, code & data.
 - Access machine with: ```ssh -i key_file dlcv@IP```
 - Navigate to ```dl-mediapro```
-- Start jupyter notebook with: ```jupyter notebook```
+- Start jupyter notebook with: ```jupyter notebook```. Default port for Jupyter is 8123.
 - Open tunnel to edit notebook locally: ```ssh -i key_file -L 8899:localhost:8123 dlcv@IP```
 - Navigate to ```localhost:8899``` from your local browser and start editing.
+- Similarly, if you want to use tensorboard, run: ```tensorboard --logdir=whatever  --port=8008```. And then open another tunnel to forward this port.
 
 Note: IPs, ssh keys and passwords will be provided in class.
