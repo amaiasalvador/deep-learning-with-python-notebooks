@@ -16,3 +16,14 @@ data/kaggle_original_data/cat.0.jpg
 data/kaggle_original_data/cat.1.jpg
 ...
 ```
+
+## GCloud Instructions
+
+- Machines are already prepared with requirements, code & data.
+- Access machine with: ```ssh -i key_file dlcv@IP```
+- Navigate to ```dl-mediapro```
+- Start jupyter notebook with: ```jupyter notebook```
+- Open tunnel to edit notebook locally: ```ssh -i key_file -L 8899:localhost:8123 dlcv@IP```
+- Navigate to ```localhost:8899``` from your local browser and start editing.
+
+Note: IPs, ssh keys and passwords will be provided in class.
