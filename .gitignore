@@ -1,4 +1,7 @@
 .ipynb_checkpoints/
 data/kaggle_original_data/
+data/cats_and_dogs_small/
 data/ucf101/
 util/__pycache__/
+*.h5
+*.pkl

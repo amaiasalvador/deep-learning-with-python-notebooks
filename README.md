@@ -6,16 +6,40 @@ Forked from the repository containing jupyter notebooks for the book [Deep Learn
 
 - Install Python 3.6
 - Install requirements with ```pip install -r requirements.txt```
-- Download Kaggle Cats and Dogs dataset from [this link](https://drive.google.com/file/d/0B_ebsCRJm2BfZU9Ib0FVaHJHOEU/view?usp=sharing)
+
+
+## Data 
+
+### Kaggle Cats and Dogs
+
+- Download the preprocessed Kaggle Cats and Dogs dataset from [this link](https://drive.google.com/file/d/0B_ebsCRJm2BfclJOblQ3UWZkeGs/view?usp=sharing)
 - Extract it under the ```data/``` directory. After extraction you should have the following structure:
 
 ```shell
 data/
-data/kaggle_original_data/
-data/kaggle_original_data/cat.0.jpg
-data/kaggle_original_data/cat.1.jpg
+data/cats_and_dogs_small/train
+data/cats_and_dogs_small/validation
+data/cats_and_dogs_small/test
+```
+
+### UCF-101
+- Download pre-extracted features [here]() (16GB).
+- Extract them under ```data```:
+```shell
+data/
+data/ucf101/train...
+```
+
+### Models
+- The pretrained models and additional files that were provided for these sessions can be downloaded from [this]() link. Download, extract, and place under ```data```.
+
+```shell
+data/
+data/models/
+data/models/model_name.pkl
 ...
 ```
+
 
 ## GCloud Instructions
 
