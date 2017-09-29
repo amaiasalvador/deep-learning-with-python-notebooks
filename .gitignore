@@ -1,3 +1,4 @@
 .ipynb_checkpoints/
 data/kaggle_original_data/
+data/ucf101/
 util/__pycache__/
