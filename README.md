@@ -6,6 +6,13 @@ Forked from the repository containing jupyter notebooks for the book [Deep Learn
 
 - Install Python 3.6
 - Install requirements with ```pip install -r requirements.txt```
+- Install PyCairo:
+
+```shell
+git clone https://github.com/pygobject/pycairo.git
+cd pycairo
+python setup.py install
+```
 
 
 ## Data 

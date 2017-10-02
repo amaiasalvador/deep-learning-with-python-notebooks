@@ -3,4 +3,5 @@ keras==2.0.8
 matplotlib==2.0.2
 opencv-python==3.3.0.10
 jupyter
-munkres=1.0.12
+munkres==1.0.12
+h5py==2.7.1
