@@ -2,6 +2,8 @@
 
 Forked from the repository containing jupyter notebooks for the book [Deep Learning with Python (Manning Publications)](https://www.manning.com/books/deep-learning-with-python?a_aid=keras&a_bid=76564dff)
 
+Created in October 2017 by [Víctor Campos](https://imatge.upc.edu/web/people/victor-campos) and [Amaia Salvador](https://imatge.upc.edu/web/people/amaia-salvador), PhD candidates at Universitat Politècnica de Catalunya.
+
 ## Prerequisites
 
 - Install Python 3.6
@@ -38,7 +40,7 @@ data/ucf101/train...
 
 ### Models (Coming soon)
 
-- The pretrained models and additional files that were provided for these sessions can be downloaded from [this]() link. Download, extract, and place under ```data```.
+- The pretrained models that are required to run all the notebooks with no code changes required can be downloaded from [this]() link. Download, extract, and place under ```data```.
 
 ```shell
 data/
@@ -46,3 +48,7 @@ data/models/
 data/models/model_name.pkl
 ...
 ```
+
+## Contact
+
+For any questions or suggestions use the issues section or drop us an e-mail at victor.campos@bsc.es or amaia.salvador@upc.edu

@@ -5,3 +5,6 @@ data/ucf101/
 util/__pycache__/
 *.h5
 *.pkl
+*.hdf5
+*.mat
+util/*/__pycache__/
