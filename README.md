@@ -14,7 +14,6 @@ cd pycairo
 python setup.py install
 ```
 
-
 ## Data 
 
 ### Kaggle Cats and Dogs
@@ -29,7 +28,7 @@ data/cats_and_dogs_small/validation
 data/cats_and_dogs_small/test
 ```
 
-### UCF-101
+### UCF-101 (Coming soon)
 - Download pre-extracted features [here]() (16GB).
 - Extract them under ```data```:
 ```shell
@@ -37,7 +36,8 @@ data/
 data/ucf101/train...
 ```
 
-### Models
+### Models (Coming soon)
+
 - The pretrained models and additional files that were provided for these sessions can be downloaded from [this]() link. Download, extract, and place under ```data```.
 
 ```shell
@@ -46,16 +46,3 @@ data/models/
 data/models/model_name.pkl
 ...
 ```
-
-
-## GCloud Instructions
-
-- Machines are already prepared with requirements, code & data.
-- Access machine with: ```ssh -i key_file dlcv@IP```
-- Navigate to ```dl-mediapro```
-- Start jupyter notebook with: ```jupyter notebook```. Default port for Jupyter is 8123.
-- Open tunnel to edit notebook locally: ```ssh -i key_file -L 8899:localhost:8123 dlcv@IP```
-- Navigate to ```localhost:8899``` from your local browser and start editing.
-- Similarly, if you want to use tensorboard, run: ```tensorboard --logdir=whatever  --port=8008```. And then open another tunnel to forward this port.
-
-Note: IPs, ssh keys and passwords will be provided in class.
